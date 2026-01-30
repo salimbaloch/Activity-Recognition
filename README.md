@@ -23,16 +23,16 @@ Tested on the popular **HMDB-51** benchmark (~6,766 clips, 51 action classes).
 ## Requirements
 
 
-torch>=2.0.0
-torchvision
-timm                     # recommended for many ViT models
-transformers             # if using huggingface ViT
-opencv-python
-pandas
-scikit-learn
-matplotlib
-seaborn
-tqdm
+- torch>=2.0.0
+- torchvision
+- timm                     # recommended for many ViT models
+- transformers             # if using huggingface ViT
+- opencv-python
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- tqdm
 
 ## Repository Structure
 
