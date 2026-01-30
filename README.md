@@ -19,14 +19,20 @@ Tested on the popular **HMDB-51** benchmark (~6,766 clips, 51 action classes).
 - Comprehensive evaluation: accuracy, precision, recall, F1, confusion matrix, per-class metrics
 - Training progress logging + best model checkpointing
 
-## Results (example from your notebook – update with your numbers)
+  
+## Requirements
 
-| Split | Top-1 Accuracy | Top-5 Accuracy | Weighted F1 |
-|-------|----------------|----------------|-------------|
-| Val   | ~68–72%        | ~89–92%        | ~0.70       |
-| Test  | ~66–70%        | ~87–91%        | ~0.68       |
 
-*(Numbers depend on ViT variant, #frames, training time, augmentation, etc.)*
+torch>=2.0.0
+torchvision
+timm                     # recommended for many ViT models
+transformers             # if using huggingface ViT
+opencv-python
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
 
 ## Repository Structure
 
